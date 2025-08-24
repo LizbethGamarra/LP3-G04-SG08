@@ -1,0 +1,31 @@
+public class Motor {
+    private String tipo;
+    private int caballosDeFuerza;
+
+    public Motor(String tipo, int caballosDeFuerza) {
+        this.tipo = tipo;
+        this.caballosDeFuerza = caballosDeFuerza;
+    }
+
+    // Getters y Setters
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public int getCaballosDeFuerza() {
+        return caballosDeFuerza;
+    }
+
+    public void setCaballosDeFuerza(int caballosDeFuerza) {
+        this.caballosDeFuerza = caballosDeFuerza;
+    }
+
+    @Override
+    public String toString() {
+        return "Motor [tipo=" + tipo + ", caballosDeFuerza=" + caballosDeFuerza + "]";
+    }
+}
