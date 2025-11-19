@@ -51,11 +51,5 @@ public class MarcoGridLayout extends JFrame implements ActionListener
  }
 } // fin de la clase MarcoGridLayout
 
-//simple.addItemListener(e -> {
-     //       if (simple.isSelected()) {
-       //         javax.swing.JOptionPane.showMessageDialog(
-         //           MarcoRadioButton.this,
-          //          "Usted seleccionó: Simple"
-                );
-            }
-//        });/
+
+
