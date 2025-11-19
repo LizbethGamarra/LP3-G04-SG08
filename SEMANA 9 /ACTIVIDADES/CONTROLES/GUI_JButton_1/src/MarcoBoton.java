@@ -37,3 +37,12 @@ public class MarcoBoton extends JFrame {
         botonElegante.addActionListener(manejador);
     }
 }
+
+//simple.addItemListener(e -> {
+//           if (simple.isSelected()) {
+//               javax.swing.JOptionPane.showMessageDialog(
+//                    MarcoRadioButton.this,
+//                    "Usted seleccionó: Simple"
+//            );
+//            }
+//        });/
